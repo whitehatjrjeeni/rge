@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    color: white;
+    background-color:mediumblue;
+}
+#show_sketch{
+    float: right;
+    background-color: rgb(226, 158, 181);
+}
+canvas{
+    border: floralwhite;
+    border-radius: 20px;
+    animation-name: tree ;
+    animation-duration: 3s;
+margin-top: 11px;
+}
+@keyframes tree{
+    from(box-shadow: 3px 3px 10px grey;)
+    to(box-shadow: 3px 3px 10px orange;)
+}
+p{
+    padding-top: 3px;
+    font-size: medium;
+}
+
+
+    
